@@ -1,0 +1,18 @@
+type Meat {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  meatName: String!
+  tags: String!
+  shortDescription: String!
+  slug: String!
+  fry: String!
+  roast: String!
+  stew: String!
+  grill: String!
+  marbling: Float
+  tenderness: Float
+  rare: Int
+  medium: Int
+  wellDone: Int
+}
